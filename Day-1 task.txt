@@ -1,0 +1,62 @@
+﻿1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+  
+HTTP stands for hypertext transfer protocol & it is used in client-server communication. By using HTTP user sends the request to the server & the server sends the response to the user. There are several stages of development of HTTP but we will focus mainly on HTTP/1.1 which was created in 1997 & the new one is HTTP/2 which was created in 2015.
+              
+
+
+
+
+
+
+
+
+HTTP 1.1
+	HTTP 2
+	It uses requests resource Inlining for use getting multiple pages
+	It uses PUSH frame by server that collects all multiple pages 
+	It works on the textual format.
+	It works on the binary protocol.
+	It compresses data by itself.
+	It compresses data by itself.
+	
+
+2.   Write a blog about objects and its internal representation in Javascript
+  
+
+
+         OBJECT : 
+
+
+                In JavaScript, an object is a collection of key-value pairs, where the keys are strings and the values can be of any data type, including other objects.Objects are used to represent real-world entities, store data, and define the behavior of those entities through methods. They are used extensively in JavaScript, and even primitive data types like numbers and strings can be treated as objects .
+
+
+Let's create a simple JavaScript object:
+
+
+                const  person ={
+                                name: “ Mahesh”,
+                                age:  “ 18” }
+
+
+In this example, ‘person’  is an object with properties like  name, age .
+
+
+
+
+INTERNAL REPRESENTATION OF OBJECTS
+
+
+
+
+The internal representation of objects in JavaScript is a fundamental concept that involves how JavaScript engines store and manage objects in memory. To understand this concept better, let's break down the key components of the internal representation of objects:
+
+
+1. Memory Allocation: When you create an object in JavaScript, the JavaScript engine allocates a block of memory to store the object's data. This memory allocation includes space for properties, methods.
+
+
+2.  Key-Value Pairs: Objects in JavaScript are essentially collections of key-value pairs. Each property of an object is stored as a key-value pair.
+
+
+3.  Garbage Collection: JavaScript engines also manage memory through a process called garbage collection. When objects are no longer referenced by any variables or are no longer accessible, they become eligible for garbage collection, and the memory they occupy is released.
